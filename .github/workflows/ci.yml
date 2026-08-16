@@ -12,8 +12,11 @@ jobs:
       - name: Descargar código
         uses: actions/checkout@v6
 
-      - name: Preparar Jav
+      - name: Preparar Java
         uses: actions/setup-java@v4
         with:
           java-version: '26'
           distribution: 'temurin'
+
+      - name: Ejecutar tests
+        run: ./mvnw test
