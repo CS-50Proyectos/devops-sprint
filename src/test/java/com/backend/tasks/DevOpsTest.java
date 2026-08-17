@@ -9,7 +9,7 @@ class DevOpsTest {
 	void sumaDebeSerCorrecta() {
 		int resultado = 2 +2;
 		
-		assertEquals(4, resultado);
+		assertEquals(5, resultado);
 	}
 	
 	
