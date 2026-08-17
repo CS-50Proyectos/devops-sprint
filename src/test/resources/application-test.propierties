@@ -2,4 +2,4 @@ spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.username=sa
 spring.datasource.password=
 
-spring.jpa.hibernate.ddk-auto=create-drop
+spring.jpa.hibernate.ddl-auto=create-drop
